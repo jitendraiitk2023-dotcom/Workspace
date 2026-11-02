@@ -1,2 +1,15 @@
 Devlopment/
 flutter/
+
+# Flutter SDK archive
+flutter_macos_arm64_3.35.4-stable.zip
+
+# Python environments
+venv/
+.venv/
+dewa/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
