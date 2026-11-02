@@ -1,0 +1,537 @@
+/* ===========================
+   TABLET
+=========================== */
+
+@media(max-width:992px){
+
+.navbar{
+    flex-direction:column;
+}
+
+.nav-links{
+    margin-top:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.hero h1{
+    font-size:45px;
+}
+
+.about{
+    flex-direction:column;
+}
+
+.product-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.gallery{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.quality-box{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.contact{
+    grid-template-columns:1fr;
+}
+
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:768px){
+
+.logo img{
+    height:55px;
+}
+
+.nav-links{
+    flex-direction:column;
+    text-align:center;
+}
+
+.nav-links li{
+    margin:12px 0;
+}
+
+.hero{
+    height:70vh;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:34px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.section-title h2{
+    font-size:30px;
+}
+
+.product-grid{
+    grid-template-columns:1fr;
+}
+
+.gallery{
+    grid-template-columns:1fr;
+}
+
+.quality-box{
+    grid-template-columns:1fr;
+}
+
+.btn{
+    display:block;
+    width:200px;
+    margin:auto;
+}
+
+}
+
+/* ===========================
+   SMALL MOBILE
+=========================== */
+
+@media(max-width:480px){
+
+.hero h1{
+    font-size:28px;
+}
+
+.hero p{
+    font-size:16px;
+}
+
+section{
+    padding:60px 0;
+}
+
+.container{
+    width:95%;
+}
+
+}
+
+/*=========================
+ABOUT RESPONSIVE
+=========================*/
+
+@media(max-width:768px){
+
+.about-container{
+
+    grid-template-columns:1fr;
+
+}
+
+.about-content h2{
+
+    font-size:32px;
+
+}
+
+.about-features{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+
+/*=========================
+PRODUCT RESPONSIVE
+=========================*/
+
+@media(max-width:992px){
+
+.product-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.product-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+
+/*==========================
+WHY US RESPONSIVE
+===========================*/
+
+@media(max-width:992px){
+
+.why-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.why-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+
+/*==========================
+PROCESS RESPONSIVE
+===========================*/
+
+@media(max-width:992px){
+
+.process-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.process-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+
+/*=========================
+FACTORY RESPONSIVE
+==========================*/
+
+@media(max-width:768px){
+
+.factory-container{
+
+    grid-template-columns:1fr;
+
+}
+
+.factory-content h2{
+
+    font-size:32px;
+
+}
+
+.factory-features{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+
+/*==========================
+STATISTICS RESPONSIVE
+===========================*/
+
+@media(max-width:992px){
+
+.stats-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.stats-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+
+/*==========================
+DISTRIBUTOR RESPONSIVE
+===========================*/
+
+@media(max-width:768px){
+
+.distributor-container{
+
+    grid-template-columns:1fr;
+
+}
+
+.distributor-content h2{
+
+    font-size:32px;
+
+}
+
+}
+
+/*==========================
+CONTACT RESPONSIVE
+===========================*/
+
+@media(max-width:768px){
+
+.contact-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+
+/*==========================
+FOOTER RESPONSIVE
+===========================*/
+
+@media(max-width:992px){
+
+.footer-container{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.footer-container{
+
+    grid-template-columns:1fr;
+
+    text-align:center;
+
+}
+
+.social-icons{
+
+    justify-content:center;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.about-page-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.vision-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:992px){
+
+.value-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.about-why-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.value-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:992px){
+
+.products-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.products-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:992px){
+
+.process-grid,
+.certificate-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.quality-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.process-grid,
+.certificate-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:992px){
+
+.distributor-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.partner-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.partner-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:992px){
+
+.contact-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.contact-form{
+
+padding:25px;
+
+}
+
+.info-box{
+
+padding:20px;
+
+}
+
+}
+
+@media(max-width:992px){
+
+.menu-toggle{
+
+display:block;
+
+}
+
+.navbar{
+
+position:relative;
+
+}
+
+nav{
+
+position:absolute;
+
+top:100%;
+
+left:0;
+
+width:100%;
+
+background:#fff;
+
+display:none;
+
+box-shadow:0 10px 20px rgba(0,0,0,.1);
+
+}
+
+nav.active{
+
+display:block;
+
+}
+
+.nav-links{
+
+flex-direction:column;
+
+padding:20px;
+
+}
+
+.nav-links li{
+
+margin:15px 0;
+
+}
+
+.btn{
+
+display:none;
+
+}
+
+}
